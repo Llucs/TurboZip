@@ -1,0 +1,242 @@
+{
+  "test_files/users.json": {
+    "original_size": 114285,
+    "results": {
+      "tzp_stable": {
+        "tzp_lightning": {
+          "compressed_size": 15703,
+          "compression_ratio": 0.13740210876317976,
+          "compress_time": 0.05937814712524414,
+          "compress_speed_mbps": 1.8355350331258784,
+          "reduction_percent": 86.25978912368201
+        },
+        "tzp_fast": {
+          "compressed_size": 14931,
+          "compression_ratio": 0.1306470665441659,
+          "compress_time": 0.06368207931518555,
+          "compress_speed_mbps": 1.7114810072556552,
+          "reduction_percent": 86.9352933455834
+        },
+        "tzp_balanced": {
+          "compressed_size": 14931,
+          "compression_ratio": 0.1306470665441659,
+          "compress_time": 0.0770256519317627,
+          "compress_speed_mbps": 1.414991843847599,
+          "reduction_percent": 86.9352933455834
+        },
+        "tzp_high": {
+          "compressed_size": 4687,
+          "compression_ratio": 0.04101150632191451,
+          "compress_time": 0.09548354148864746,
+          "compress_speed_mbps": 1.1414602721186955,
+          "reduction_percent": 95.89884936780855
+        },
+        "tzp_max": {
+          "compressed_size": 2463,
+          "compression_ratio": 0.02155138469615435,
+          "compress_time": 0.3700082302093506,
+          "compress_speed_mbps": 0.2945628241534557,
+          "reduction_percent": 97.84486153038456
+        }
+      },
+      "gzip": {
+        "gzip_1": {
+          "compressed_size": 9052,
+          "compression_ratio": 0.07920549503434396,
+          "compress_time": 0.003837108612060547,
+          "decompress_time": 0.003851175308227539,
+          "compress_speed_mbps": 28.404374300981733,
+          "reduction_percent": 92.07945049656561
+        },
+        "gzip_6": {
+          "compressed_size": 8361,
+          "compression_ratio": 0.07315920724504528,
+          "compress_time": 0.0032753944396972656,
+          "decompress_time": 0.003741025924682617,
+          "compress_speed_mbps": 33.27558596593391,
+          "reduction_percent": 92.68407927549546
+        },
+        "gzip_9": {
+          "compressed_size": 8367,
+          "compression_ratio": 0.07321170757317233,
+          "compress_time": 0.004721164703369141,
+          "decompress_time": 0.0038728713989257812,
+          "compress_speed_mbps": 23.085546914453086,
+          "reduction_percent": 92.67882924268277
+        }
+      },
+      "bzip2": {
+        "bzip2_1": {
+          "compressed_size": 4199,
+          "compression_ratio": 0.03674147963424772,
+          "compress_time": 0.011178731918334961,
+          "decompress_time": 0.0037620067596435547,
+          "compress_speed_mbps": 9.749824045044468,
+          "reduction_percent": 96.32585203657523
+        },
+        "bzip2_6": {
+          "compressed_size": 4203,
+          "compression_ratio": 0.03677647985299908,
+          "compress_time": 0.011906862258911133,
+          "decompress_time": 0.004304409027099609,
+          "compress_speed_mbps": 9.153601249474379,
+          "reduction_percent": 96.3223520147001
+        },
+        "bzip2_9": {
+          "compressed_size": 4203,
+          "compression_ratio": 0.03677647985299908,
+          "compress_time": 0.010823726654052734,
+          "decompress_time": 0.0036497116088867188,
+          "compress_speed_mbps": 10.069606590598704,
+          "reduction_percent": 96.3223520147001
+        }
+      },
+      "xz": {
+        "xz_1": {
+          "compressed_size": 2656,
+          "compression_ratio": 0.02324014525090782,
+          "compress_time": 0.0070722103118896484,
+          "decompress_time": 0.00389862060546875,
+          "compress_speed_mbps": 15.411118228095606,
+          "reduction_percent": 97.67598547490923
+        },
+        "xz_6": {
+          "compressed_size": 2200,
+          "compression_ratio": 0.019250120313251958,
+          "compress_time": 0.040090322494506836,
+          "decompress_time": 0.003792285919189453,
+          "compress_speed_mbps": 2.718627899923283,
+          "reduction_percent": 98.0749879686748
+        },
+        "xz_9": {
+          "compressed_size": 2200,
+          "compression_ratio": 0.019250120313251958,
+          "compress_time": 0.04091954231262207,
+          "decompress_time": 0.0038449764251708984,
+          "compress_speed_mbps": 2.663535882630558,
+          "reduction_percent": 98.0749879686748
+        }
+      }
+    }
+  },
+  "test_files/text_repetitive.txt": {
+    "original_size": 878890,
+    "results": {
+      "tzp_stable": {
+        "tzp_lightning": {
+          "compressed_size": 52134,
+          "compression_ratio": 0.059318003390640466,
+          "compress_time": 0.06852149963378906,
+          "compress_speed_mbps": 12.232289491997216,
+          "reduction_percent": 94.06819966093596
+        },
+        "tzp_fast": {
+          "compressed_size": 50031,
+          "compression_ratio": 0.056925212483928594,
+          "compress_time": 0.07355523109436035,
+          "compress_speed_mbps": 11.39517621623724,
+          "reduction_percent": 94.30747875160715
+        },
+        "tzp_balanced": {
+          "compressed_size": 50031,
+          "compression_ratio": 0.056925212483928594,
+          "compress_time": 0.06992864608764648,
+          "compress_speed_mbps": 11.98614397447,
+          "reduction_percent": 94.30747875160715
+        },
+        "tzp_high": {
+          "compressed_size": 10979,
+          "compression_ratio": 0.012491893183447303,
+          "compress_time": 0.08338689804077148,
+          "compress_speed_mbps": 10.051636883488205,
+          "reduction_percent": 98.75081068165527
+        },
+        "tzp_max": {
+          "compressed_size": 7395,
+          "compression_ratio": 0.008414022232588834,
+          "compress_time": 2.6466827392578125,
+          "compress_speed_mbps": 0.31668881483744876,
+          "reduction_percent": 99.15859777674112
+        }
+      },
+      "gzip": {
+        "gzip_1": {
+          "compressed_size": 29502,
+          "compression_ratio": 0.03356734062283107,
+          "compress_time": 0.007481098175048828,
+          "decompress_time": 0.007853984832763672,
+          "compress_speed_mbps": 112.03900822232137,
+          "reduction_percent": 96.64326593771689
+        },
+        "gzip_6": {
+          "compressed_size": 28275,
+          "compression_ratio": 0.03217126147754554,
+          "compress_time": 0.008336067199707031,
+          "decompress_time": 0.0076694488525390625,
+          "compress_speed_mbps": 100.54799222056972,
+          "reduction_percent": 96.78287385224544
+        },
+        "gzip_9": {
+          "compressed_size": 27730,
+          "compression_ratio": 0.03155116112369011,
+          "compress_time": 0.01130056381225586,
+          "decompress_time": 0.007729768753051758,
+          "compress_speed_mbps": 74.17106207012954,
+          "reduction_percent": 96.844883887631
+        }
+      },
+      "bzip2": {
+        "bzip2_1": {
+          "compressed_size": 11479,
+          "compression_ratio": 0.013060792590654121,
+          "compress_time": 0.06093931198120117,
+          "decompress_time": 0.015964508056640625,
+          "compress_speed_mbps": 13.754254728127764,
+          "reduction_percent": 98.69392074093459
+        },
+        "bzip2_6": {
+          "compressed_size": 11355,
+          "compression_ratio": 0.01291970553766683,
+          "compress_time": 0.10503864288330078,
+          "decompress_time": 0.016159772872924805,
+          "compress_speed_mbps": 7.979680591242135,
+          "reduction_percent": 98.70802944623331
+        },
+        "bzip2_9": {
+          "compressed_size": 10732,
+          "compression_ratio": 0.012210856876287136,
+          "compress_time": 0.1076054573059082,
+          "decompress_time": 0.016004085540771484,
+          "compress_speed_mbps": 7.789333746925752,
+          "reduction_percent": 98.77891431237128
+        }
+      },
+      "xz": {
+        "xz_1": {
+          "compressed_size": 2476,
+          "compression_ratio": 0.002817189864488161,
+          "compress_time": 0.016943693161010742,
+          "decompress_time": 0.007927894592285156,
+          "compress_speed_mbps": 49.468248272756696,
+          "reduction_percent": 99.71828101355118
+        },
+        "xz_6": {
+          "compressed_size": 3380,
+          "compression_ratio": 0.0038457599927180877,
+          "compress_time": 0.1537032127380371,
+          "decompress_time": 0.007986307144165039,
+          "compress_speed_mbps": 5.453202994363077,
+          "reduction_percent": 99.6154240007282
+        },
+        "xz_9": {
+          "compressed_size": 3380,
+          "compression_ratio": 0.0038457599927180877,
+          "compress_time": 0.1587975025177002,
+          "decompress_time": 0.00821542739868164,
+          "compress_speed_mbps": 5.278261979295693,
+          "reduction_percent": 99.6154240007282
+        }
+      }
+    }
+  }
+}

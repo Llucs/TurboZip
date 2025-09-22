@@ -1,0 +1,104 @@
+{
+  "test_files/text_repetitive.txt": {
+    "tzp": {
+      "tzp_fast": {
+        "compressed_size": 52228,
+        "compression_ratio": 0.05942495647919535,
+        "compress_time": 0.11717891693115234,
+        "decompress_time": 0,
+        "compress_speed_mbps": 7.152949027842208
+      },
+      "tzp_balanced": {
+        "compressed_size": 10513,
+        "compression_ratio": 0.011961678935930548,
+        "compress_time": 0.1266486644744873,
+        "decompress_time": 0,
+        "compress_speed_mbps": 6.61811021398599
+      },
+      "tzp_deep": {
+        "compressed_size": 7489,
+        "compression_ratio": 0.008520975321143716,
+        "compress_time": 0.9934799671173096,
+        "decompress_time": 0,
+        "compress_speed_mbps": 0.8436756126833083
+      }
+    },
+    "gzip": {
+      "gzip_1": {
+        "compressed_size": 29502,
+        "compression_ratio": 0.03356734062283107,
+        "compress_time": 0.006801605224609375,
+        "decompress_time": 0.007730245590209961,
+        "compress_speed_mbps": 123.23191250701066
+      },
+      "gzip_6": {
+        "compressed_size": 28275,
+        "compression_ratio": 0.03217126147754554,
+        "compress_time": 0.00790715217590332,
+        "decompress_time": 0.00793004035949707,
+        "compress_speed_mbps": 106.00211065882708
+      },
+      "gzip_9": {
+        "compressed_size": 27730,
+        "compression_ratio": 0.03155116112369011,
+        "compress_time": 0.011028528213500977,
+        "decompress_time": 0.008020162582397461,
+        "compress_speed_mbps": 76.00060531379035
+      }
+    },
+    "lz4": {},
+    "zstd": {},
+    "7z": {}
+  },
+  "test_files/users.json": {
+    "tzp": {
+      "tzp_fast": {
+        "compressed_size": 15803,
+        "compression_ratio": 0.13827711423196395,
+        "compress_time": 0.06580495834350586,
+        "decompress_time": 0,
+        "compress_speed_mbps": 1.6562683419925655
+      },
+      "tzp_balanced": {
+        "compressed_size": 3312,
+        "compression_ratio": 0.02898018112613204,
+        "compress_time": 0.06750941276550293,
+        "decompress_time": 0,
+        "compress_speed_mbps": 1.6144514488531017
+      },
+      "tzp_deep": {
+        "compressed_size": 2563,
+        "compression_ratio": 0.022426390164938532,
+        "compress_time": 0.1364438533782959,
+        "decompress_time": 0,
+        "compress_speed_mbps": 0.7987950101959331
+      }
+    },
+    "gzip": {
+      "gzip_1": {
+        "compressed_size": 9052,
+        "compression_ratio": 0.07920549503434396,
+        "compress_time": 0.003106355667114258,
+        "decompress_time": 0.0038900375366210938,
+        "compress_speed_mbps": 35.08634584388671
+      },
+      "gzip_6": {
+        "compressed_size": 8361,
+        "compression_ratio": 0.07315920724504528,
+        "compress_time": 0.0039865970611572266,
+        "decompress_time": 0.0037412643432617188,
+        "compress_speed_mbps": 27.33927396686801
+      },
+      "gzip_9": {
+        "compressed_size": 8367,
+        "compression_ratio": 0.07321170757317233,
+        "compress_time": 0.0038957595825195312,
+        "decompress_time": 0.003629446029663086,
+        "compress_speed_mbps": 27.976744186046513
+      }
+    },
+    "lz4": {},
+    "zstd": {},
+    "7z": {}
+  }
+}
